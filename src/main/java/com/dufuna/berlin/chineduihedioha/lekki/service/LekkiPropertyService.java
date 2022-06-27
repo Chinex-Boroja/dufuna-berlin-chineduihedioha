@@ -2,9 +2,13 @@ package com.dufuna.berlin.chineduihedioha.lekki.service;
 
 import com.dufuna.berlin.chineduihedioha.lekki.model.LekkiProperty;
 
+import java.util.List;
+
 public interface LekkiPropertyService {
 
-    void saveProperty(LekkiProperty lekkiProperty);
+    LekkiProperty saveProperty(LekkiProperty lekkiProperty);
 
-    LekkiProperty getProperty();
+    LekkiProperty getProperty(int lekkiPropertyId);
+
+    List<LekkiProperty> getProperties();
 }

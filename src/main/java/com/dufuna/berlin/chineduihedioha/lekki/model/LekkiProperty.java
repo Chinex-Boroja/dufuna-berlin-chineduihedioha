@@ -20,6 +20,12 @@ public class LekkiProperty {
     public LekkiProperty() {
     }
 
+    public LekkiProperty(int propertyId, String propertyType, String propertyAddress) {
+        setPropertyId(propertyId);
+        setPropertyType(propertyType);
+        setPropertyAddress(propertyAddress);
+    }
+
     public int getPropertyId() {
         return propertyId;
     }
