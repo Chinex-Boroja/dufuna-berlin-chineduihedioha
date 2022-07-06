@@ -1,6 +1,6 @@
 # Dufuna Training Program
 ﻿
-# BUILDING AND IMPLEMENTING A REAL ESTATE PROPERTY AND TAX SERVICE SOLUTIONS
+# Building and Implementation of a REAL ESTATE property TAX service solutions
 ---
 > 
 This implementation focuses on developing a solution for real estates to identify properties on their database and also allow users to perform all other needed operations. Some of the operation I carried out while creating this solution are;
@@ -29,7 +29,7 @@ Technologies and Tools used:
 # STEPS TO RUN THE PROJECT
 ---
 >
-Since the project used Spring Datat JPA in the 'tax package` and auto generate ddl, we don't need to define the table in the Entity class. Other two packages are `address` and `lekki`.
+Since the project used Spring Data JPA in the `tax package` and auto generate ddl, we don't need to define the table in the Entity class. Other two packages are `address`  and  `lekki`.
 
 - `clone` the project.
 - Replace the db credential with yours in application.properties
