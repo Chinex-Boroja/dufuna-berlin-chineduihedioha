@@ -1,5 +1,6 @@
 package com.dufuna.berlin.chineduihedioha.lekki.model;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class LekkiProperty {
@@ -14,8 +15,8 @@ public class LekkiProperty {
     private int numberOfToilets;
     private String propertyOwner;
     private String description;
-    private String validFrom;
-    private String validTo;
+    private LocalDate validFrom;
+    private LocalDate validTo;
 
     public LekkiProperty() {
     }
@@ -106,19 +107,19 @@ public class LekkiProperty {
         this.description = description;
     }
 
-    public String getValidFrom() {
+    public LocalDate getValidFrom() {
         return validFrom;
     }
 
-    public void setValidFrom(String validFrom) {
+    public void setValidFrom(LocalDate validFrom) {
         this.validFrom = validFrom;
     }
 
-    public String getValidTo() {
+    public LocalDate getValidTo() {
         return validTo;
     }
 
-    public void setValidTo(String validTo) {
+    public void setValidTo(LocalDate validTo) {
         this.validTo = validTo;
     }
 
