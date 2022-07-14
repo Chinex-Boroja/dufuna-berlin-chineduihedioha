@@ -27,8 +27,6 @@ public class MockLekkiPropertyApp {
             System.out.println();
         }
 
-//        System.out.println(lekkiProperties);
-
         // Get a single Lekki property using the index of the property in the list
         // Display the property on the console
         LekkiProperty getPropertySaved = mockLekkiPropertyService.getProperty(0);
@@ -37,29 +35,6 @@ public class MockLekkiPropertyApp {
         // Fetch all the Lekki property objects and display them
         ArrayList<LekkiProperty> allProperty = mockLekkiPropertyService.getProperties();
         System.out.println("All Lekki Property Listed: " + allProperty);
-
-
-//        LekkiProperty lekkiProperty = new LekkiProperty();
-//        lekkiProperty.setPropertyId(0);
-//        lekkiProperty.setPropertyAddress("Block2 Ozumba Mbadiwe way");
-//        lekkiProperty.setPropertyType("House");
-//        lekkiProperty.setNumberOfBedrooms(8);
-//        lekkiProperty.setNumberOfSittingRooms(4);
-//        lekkiProperty.setNumberOfKitchens(2);
-//        lekkiProperty.setNumberOfBathrooms(8);
-//        lekkiProperty.setNumberOfToilets(6);
-//        lekkiProperty.setPropertyOwner("Mr John Doe");
-//        lekkiProperty.setDescription("Arctica Duplex");
-//        lekkiProperty.setValidFrom("10/07/2022");
-//        lekkiProperty.setValidTo("01/12/2023");
-
-//        System.out.println(lekkiProperty);
-//        System.out.println(lekkiProperty.getDescription() + " has " + lekkiProperty.getNumberOfBathrooms() + " bathrooms");
-//        System.out.println("The owner of " + lekkiProperty.getDescription() + " is " + lekkiProperty.getPropertyOwner());
-//
-//        MockLekkiPropertyService mockLekkiPropertyService = new MockLekkiPropertyService();
-//        mockLekkiPropertyService.saveProperty(lekkiProperty);
-//        mockLekkiPropertyService.getProperty();
 
     }
 }
